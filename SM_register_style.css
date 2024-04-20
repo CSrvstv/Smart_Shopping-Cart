@@ -90,3 +90,16 @@ tr {
   font-weight: 400;
   font-family: Georgia;
 }
+button{
+  background-color: #7a1be0;
+  color:white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+}
+button:hover{
+  background-color: #8026e1;
+}

@@ -53,22 +53,13 @@
       <div class="container">
         <div class="wrapper">
           <div class="title">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" /><br />
-            <label for="phone">Phone No:</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="XXXXXXXXXX"
-              pattern="[0-9]{10}"
-            /><br />
-            <label for="allergies">Allergy List:</label>
-            <textarea id="allergies" name="allergies"></textarea><br />
-            <button id="submit" class="submit" name="submit" value="Submit">
-              <a href="">Submit</a>
-            </button>
-          </div>
+            <form id="myForm">
+              <label for="name">Name:<input type="text" id="name" name="name"></label>
+              <label for="number">Phone No:<input type="text" id="number" name="number"></label>
+              <label>Allergies<textarea name="allergies" id="allergies" cols="30" rows="10"></textarea></label>
+              <button type="submit">Submit</button>
+            </form>
+            <button id="exportButton">Export Data as CSV</button>
         </div>
       </div>
     </div>
